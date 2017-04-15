@@ -28,7 +28,7 @@ zipfb <- zctas(starts_with = c(777406, 77417, 77420, 77430, 77435, 77441, 77444,
 
 
 # create a geographic set to grab tabular data (acs)
-api.key.install(key = "1d2e99a9d125613a69921d50ce5c1e1c0999f4d9")
+api.key.install(key = "apikey")
 
 geo<-geo.make(zip.code = c(77406, 77417, 77420, 77430, 77435, 77441, 77444,
                            77451, 77459, 77461, 77464, 77469, 77471, 77476, 77478, 77477, 77479, 77481,
