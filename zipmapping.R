@@ -50,8 +50,7 @@ counties <- c(5, 47, 61, 81, 85)
 tracts <- tracts(state = 'NY', county = c(5, 47, 61, 81, 85), cb=TRUE)
 
 #setting api key
-my_census_api_key <- "1d2e99a9d125613a69921d50ce5c1e1c0999f4d9"
-api.key.install(key = "1d2e99a9d125613a69921d50ce5c1e1c0999f4d9")
+api.key.install(key = "apikey")
 
 ##getting tabular data
 # create a geographic set to grab tabular data (acs)
